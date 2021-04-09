@@ -19,7 +19,7 @@ button{
 }
 
 button[type="submit"] {
-  -webkit-appearance:none; -webkit-border-radius:0;
+  -webkit-appearance:none; -webkit-border-radius:2px;
 }
 
 button i{
