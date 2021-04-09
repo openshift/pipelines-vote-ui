@@ -6,10 +6,10 @@
 html,body{
   margin: 0;
   padding: 0;
-  background-color: #121212;
+  background-color: #fff;
   height: 100vh;
   font-family: 'Open Sans';
-  color: #777;
+  color: #000;
 }
 
 button{
