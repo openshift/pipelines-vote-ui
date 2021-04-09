@@ -13,13 +13,13 @@ html,body{
 }
 
 button{
-  border-radius: 2px;
+  border-radius: 5px;
   width: 100%;
   height: 50%;
 }
 
 button[type="submit"] {
-  -webkit-appearance:none; -webkit-border-radius:2px;
+  -webkit-appearance:none; -webkit-border-radius:5px;
 }
 
 button i{
@@ -29,7 +29,8 @@ button i{
 }
 
 button.a{
-  background-color: #e00;
+  /*background-color: #e00;*/
+  background-color: #00b894;
 }
 
 button.b{
