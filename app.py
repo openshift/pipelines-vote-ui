@@ -7,7 +7,7 @@ import random
 import json
 import requests
 
-option_a = os.getenv('OPTION_A', u"PengLi 🐺")
+option_a = os.getenv('OPTION_A', u"Horse 🐺")
 option_b = os.getenv('OPTION_B', u"Dog 🐶")
 hostname = socket.gethostname()
 
