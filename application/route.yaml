@@ -3,7 +3,7 @@ kind: Route
 metadata:
   labels:
     app: pipelines-vote-ui
-  name: pipelines-vote-ui
+  name: pipelines-vote-ui-gitops
 spec:
   port:
     targetPort: 8080-tcp
