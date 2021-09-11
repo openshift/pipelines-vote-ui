@@ -5,7 +5,7 @@ metadata:
     app: pipelines-vote-ui
   name: pipelines-vote-ui
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: pipelines-vote-ui
