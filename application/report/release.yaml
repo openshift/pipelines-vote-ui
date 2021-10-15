@@ -1137,7 +1137,7 @@ metadata:
   namespace: starboard-report-system
 spec:
   port:
-    targetPort: 8080-tcp
+    targetPort: 80
   to:
     kind: Service
     name: report
