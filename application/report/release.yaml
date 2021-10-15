@@ -960,7 +960,8 @@ metadata:
   namespace: starboard-report-system
 spec:
   ports:
-  - port: 80
+  - name: 80-pengli
+    port: 80
     protocol: TCP
     targetPort: 8080
   selector:
@@ -1137,7 +1138,7 @@ metadata:
   namespace: starboard-report-system
 spec:
   port:
-    targetPort: 80
+    targetPort: 80-pengli
   to:
     kind: Service
     name: report
