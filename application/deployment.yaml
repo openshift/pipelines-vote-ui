@@ -15,7 +15,7 @@ spec:
         app: pipelines-vote-ui
     spec:
       containers:
-        - image: quay.io/openshift-pipeline/vote-ui:latest
+        - image: quay.io/pengli1707/vote-ui:v0.0.1
           imagePullPolicy: Always
           name: pipelines-vote-ui
           ports:
