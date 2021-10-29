@@ -713,7 +713,7 @@ metadata:
 ---
 apiVersion: v1
 data:
-  namespaceWatch: argocd-example
+  namespaceWatch: argocd-tutorial
 kind: ConfigMap
 metadata:
   name: report
