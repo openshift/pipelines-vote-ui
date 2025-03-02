@@ -1,0 +1,11 @@
+bases:
+- ../base
+
+patches:
+- replicas_limit.yaml
+
+namePrefix: dev-
+
+images:
+- name: quay.io/openshift-pipeline/vote-ui:latest
+  newTag: latest
